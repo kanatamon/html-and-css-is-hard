@@ -32,4 +32,5 @@ div {
 
   width: 200px;
   box-sizing: border-box;
+  margin: 20px auto; /* auto on left/right will be meaningful only when width is setted */
 }
