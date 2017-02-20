@@ -8,6 +8,16 @@
   font-style: italic;
 }
 
+/* Descebant selectors */
+.synopsis em {
+  font-style: normal;
+}
+
+/* Try to avoid this */
+.article h2 .subheading em {
+  /* Special styles */
+}
+
 .button {
   color: #FFF;
   background-color: #5995DA;    /* Blue */
@@ -29,3 +39,5 @@
   font-style: italic;
   background-color: #EEB75A;    /* Yellow */
 }
+
+
