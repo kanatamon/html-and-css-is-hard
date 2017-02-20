@@ -104,3 +104,17 @@ a:visited:hover {
 }*/
 
 
+
+/* Structural pseudo-classes */
+/* This will cause every p element in the body element, avoid it */
+/*p:last-of-type {
+  margin-bottom: 50px;
+}*/
+
+/* Use a child selector instead to limit scope of pseudo-classes */
+.page > p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
+}
+
+
