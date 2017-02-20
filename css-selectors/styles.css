@@ -89,7 +89,8 @@ a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: red;
+  /* Add !important will also fix the cause of overried a:visited:hover */
+  color: red !important;
 }
 
 /* Visited hover state */
@@ -98,8 +99,8 @@ a:visited:hover {
 }
 
 /* This will fix a:active will be red */
-a:visited:active {
+/*a:visited:active {
   color: red;
-}
+}*/
 
 
