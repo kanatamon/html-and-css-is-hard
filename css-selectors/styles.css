@@ -3,10 +3,14 @@
   margin: 0 auto;
 }
 
+
+
 .synopsis {
   color: #7E8184;        /* Light gray */
   font-style: italic;
 }
+
+
 
 /* Descebant selectors */
 .synopsis em {
@@ -18,7 +22,14 @@
   /* Special styles */
 }
 
-.button {
+
+
+.button:link,
+.button:visited {
+  display: block;            
+  text-decoration: none;      
+
+  /* The rest of lesson ''more useful divs */
   color: #FFF;
   background-color: #5995DA;    /* Blue */
   font-weight: bold;
@@ -31,13 +42,36 @@
   margin: 20px auto;
 }
 
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+
 /*	
  This is a second overried style of button for 'Button Two'.
  Be sure the write this after .button { ... }
 */
-.call-to-action {
+.call-to-action:link,
+.call-to-action:visited {
   font-style: italic;
   background-color: #EEB75A;    /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
 }
 
 
