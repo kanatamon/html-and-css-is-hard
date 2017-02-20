@@ -7,6 +7,13 @@
 .page {
   width: 900px;
   margin: 0 auto;
+  /*overflow: hidden;   */
+  /*background-color: #EAEDF0; */
+}
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
 }
 
 .menu {
@@ -31,6 +38,7 @@
 }
 
 .footer {
+	clear: both; 
   height: 200px;
   background-color: #D6E9FE;    /* Light blue */
 }
