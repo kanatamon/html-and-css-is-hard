@@ -1,3 +1,8 @@
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
 .synopsis {
   color: #7E8184;        /* Light gray */
   font-style: italic;
@@ -16,7 +21,11 @@
   margin: 20px auto;
 }
 
-.page {
-  width: 600px;
-  margin: 0 auto;
+/*	
+ This is a second overried style of button for 'Button Two'.
+ Be sure the write this after .button { ... }
+*/
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
 }
