@@ -41,3 +41,31 @@
 }
 
 
+
+/* Link pseudo-classes */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+/* Visited hover state */
+a:visited:hover {
+  color: orange;
+}
+
+/* This will fix a:active will be red */
+a:visited:active {
+  color: red;
+}
+
+
