@@ -50,6 +50,11 @@
 	align-items: center;
 }
 
+.header-container > .header  > .social, .subscribe {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
+
 
 
 .photo-grid-container {
