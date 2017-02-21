@@ -24,13 +24,17 @@
   padding: 0.2rem 0.4rem;
 }
 
-.menu-container > .menu > .links {
+/*.menu-container > .menu > .links {
 	display: flex;
 	justify-content: flex-end;
+}*/
+
+.menu-container > .menu > .login {
+	margin-left: 20px;
 }
 
-.menu-container > .menu > .links > .login {
-	margin-left: 20px;
+.signup {
+	margin-left: auto;
 }
 
 
