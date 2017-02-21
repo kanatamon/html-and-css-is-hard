@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .menu-container {
   color: #fff;
   background-color: #5995DA;  /* Blue */
@@ -13,8 +15,8 @@
   justify-content: center;
 }
 
-.menu {
-  border: 1px solid #fff;  /* For debugging */
+.menu-container > .menu {
+  /*border: 1px solid #fff; */ /* For debugging */
   width: 900px;
 
   display: flex;
@@ -22,14 +24,16 @@
   padding: 0.2rem 0.4rem;
 }
 
-.links {
+.menu-container > .menu > .links {
 	display: flex;
 	justify-content: flex-end;
 }
 
-.login {
+.menu-container > .menu > .links > .login {
 	margin-left: 20px;
 }
+
+
 
 .header-container {
 	color: #5995DA;
@@ -38,7 +42,7 @@
 	justify-content: center;
 }
 
-.header {
+.header-container > .header {
 	width: 900px;
 	height: 300px;
 	display: flex;
