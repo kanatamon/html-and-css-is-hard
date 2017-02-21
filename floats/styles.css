@@ -82,4 +82,5 @@ p {
 .comment {
   margin: 10px;
   overflow: hidden;  
+  /* 'overflow hidden' make sure that the text horizontally cleared */
 }
