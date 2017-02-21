@@ -18,5 +18,15 @@
   width: 900px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0.2rem 0.4rem;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.login {
+	margin-left: 20px;
 }
