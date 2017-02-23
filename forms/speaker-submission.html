@@ -2,6 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Speaker Submission</title>
     <link rel='stylesheet' href='styles.css'/>
   </head>
@@ -13,7 +14,12 @@
     </header>
 
     <form action='' method='get' class='speaker-form'>
-      
+      <div class="form-row">
+        <!-- attribute 'for' of <label> must matchs to 'id' of <input> -->
+        <label for="full-name">Name</label>
+        <!-- remember that ID selectors are bad- the 'id' here is only for connnecting it to a <label> above -->
+        <input type="text" name="full-name" id="full-name">
+      </div>
     </form>
 
   </body>
