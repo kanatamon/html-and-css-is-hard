@@ -20,6 +20,62 @@
         <!-- remember that ID selectors are bad- the 'id' here is only for connnecting it to a <label> above -->
         <input type="text" name="full-name" id="full-name">
       </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input  
+          id="email"
+          type="email" 
+          name="email"
+          placeholder="joe@example.com"/> 
+      </div>
+
+      <fieldset class="legacy-form-row">
+        <legend>Type of Talk</legend>
+        <input 
+          type="radio" 
+          name="talk-type"
+          id="talk-type-1"
+          value="main-stage" />
+        <label for="talk-type-1" class="radio-label">Main Stage</label>
+        <input 
+          type="radio" 
+          name="talk-type" 
+          id="talk-type-2" 
+          value="workshop" 
+          checked />
+        <label for="talk-type-2" class="radio-label"> Workshop</label>
+      </fieldset>
+
+      <div class='form-row'>
+        <label for='t-shirt'>T-Shirt Size</label>
+        <select id='t-shirt' name='t-shirt'>
+          <option value='xs'>Extra Small</option>
+          <option value='s'>Small</option>
+          <option value='m'>Medium</option>
+          <option value='l'>Large</option>
+        </select>
+      </div>
+
+      <div class='form-row'>
+        <label for='abstract'>Abstract</label>
+        <textarea id='abstract' name='abstract'></textarea>
+        <div class='instructions'>Describe your talk in 500 words or less</div>
+      </div>
+
+      <div class='form-row'>
+        <label class='checkbox-label' for='available'>
+        <input id='available'
+               name='available'
+               type='checkbox'
+               value='is-available'/>
+        <span>I’m actually available the date of the talk</span>
+        </label>
+      </div>
+
+      <div class='form-row'>
+        <button>Submit</button>
+      </div>
     </form>
 
   </body>
