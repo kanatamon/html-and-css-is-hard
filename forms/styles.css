@@ -103,6 +103,8 @@ body {
   padding: 5px;
   font-size: 14px;            /* This won't work in Chrome or Safari */
   -webkit-appearance: none;   
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
 }
 
 .form-row textarea {
