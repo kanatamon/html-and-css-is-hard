@@ -1,3 +1,12 @@
+@font-face {
+  /* 
+  'font-family' define how we'll refer to this font later on, so it can be anything you want.
+  It's a good idea to keep the name as generic as possible (eg. 'Roboto' instead of 'Roboto Light').
+  */
+  font-family: 'Roboto'; 
+  src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +14,8 @@
 }
 
 body {
-  font-family: sans-serif;
+  /* Add 'Roboto' tell the broswer to use 'Roboto' that we recently installed */
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
